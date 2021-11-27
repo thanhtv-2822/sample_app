@@ -50,3 +50,17 @@ en:
     home_wellcome: "Welcome to the Sample App"
     body_home_html:  This is the home page for the <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
     signup: "Sign Up Now!"
+    create_my_account: "Create My Account"
+    sign_up: "Sign Up"
+  error:
+    invalid: "Invalid"
+    err: "Errors"
+  sign_up_form:
+    confirmation: "Confirmation"
+    password: "Password"
+    email: "Email"
+    name: "Name"
+    gender: "Gender"
+    create_my_account: "Create My Account"
+    birthday: "Birthday"
+  
