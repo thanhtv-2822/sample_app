@@ -23,3 +23,13 @@ vi:
     sign_up: "Sign Up"
   error:
     invalid: "Invalid"
+    err: "Errors"
+  sign_up_form:
+    confirmation: "Xác Thực "
+    password: "Mật Khẩu"
+    email: "Email"
+    name: "Họ Tên"
+    gender: "Giới Tính"
+    create_my_account: "Tạo Tài Khoản"
+    birthday: "Ngày Sinh"
+    success: "Chao mung ban den voi Sample App!"

@@ -11,7 +11,7 @@ class User < ApplicationRecord
 
   validates :password, presence: true,
     length: {minimum: Settings.length.password}
-  validate :valid_birthday, if ->{birthday.present?}
+  validate :valid_birthday, if: ->{birthday.present?}
 
   has_secure_password
 
