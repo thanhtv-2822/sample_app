@@ -1,0 +1,21 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to t("app_name"), "#" , id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+           <%= link_to t("nav.home"), home_path %>
+        </li>
+        <li>
+          <%= link_to t("nav.help"), help_path %>
+        </li>
+        <li>
+          <%= link_to t("nav.contact"), contact_path %>
+        </li>
+        <li>
+          <%= link_to t("nav.login"), "#" %>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
