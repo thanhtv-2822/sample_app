@@ -54,3 +54,13 @@ en:
     sign_up: "Sign Up"
   error:
     invalid: "Invalid"
+    err: "Errors"
+  sign_up_form:
+    confirmation: "Confirmation"
+    password: "Password"
+    email: "Email"
+    name: "Name"
+    gender: "Gender"
+    create_my_account: "Create My Account"
+    birthday: "Birthday"
+    success: "Welcome to the Sample App!"
