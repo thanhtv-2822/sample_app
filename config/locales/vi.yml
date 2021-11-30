@@ -7,6 +7,7 @@ vi:
     help: "Help"
     contact: "Contact"
     login: "Log in"
+    logout: "Log out"
   contact:
     contact_subject: "Contact"
     body_contact: "Hello Truong Thanh"
@@ -32,3 +33,4 @@ vi:
     gender: "Giới Tính"
     create_my_account: "Tạo Tài Khoản"
     birthday: "Ngày Sinh"
+    success: "Chao mung ban den voi Sample App!"
