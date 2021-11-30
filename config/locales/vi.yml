@@ -34,3 +34,5 @@ vi:
     create_my_account: "Tạo Tài Khoản"
     birthday: "Ngày Sinh"
     success: "Chao mung ban den voi Sample App!"
+  log_in_form:
+    fails: "Invalid email/password combination"
