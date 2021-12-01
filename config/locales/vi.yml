@@ -3,28 +3,28 @@ vi:
   title:
     base_title: "Ruby on Rails Tutorial Sample App"
   nav:
-    home: "Trang chu"
-    help: "Tro giup"
-    contact: "Lien he"
-    login: "Dang nhap"
-    logout: "Dang xuat"
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    contact: "Liên hệ"
+    login: "Đăng nhập"
+    logout: "Đăng xuất"
   contact:
-    contact_subject: "Lien he"
-    body_contact: "Xin chao Truong Thanh"
+    contact_subject: "Liên hệ"
+    body_contact: "Xin chào Truong Thanh"
   help:
-    help_subject: "Tro giup"
+    help_subject: "Trợ giúp"
     body_help_html: Get help on the Ruby on Rails Tutorial at the <a href="http://www.railstutorial.org/help">Rails Tutorial help page.</a>
     about_html: To get help on this sample app, see the <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em> book</a>.
   home:
-    home_subject: "Trang Chu"
-    home_wellcome: "Chao mung den Sample App"
+    home_subject: "Trang chủ"
+    home_wellcome: "Chào mừng bạn đến Sample App"
     body_home_html:  This is the home page for the <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    signup: "Dang ky ngay!"
-    create_my_account: "Tao tai khoan"
-    sign_up: "Dang ky"
+    signup: "Đăng ký ngay!"
+    create_my_account: "Tạo tài khoản"
+    sign_up: "Đăng ký"
   error:
-    invalid: "Khong hop le"
-    err: "Loi"
+    invalid: "Không hợp lệ"
+    err: "lỗi"
   sign_up_form:
     confirmation: "Xác Thực "
     password: "Mật Khẩu"
@@ -33,7 +33,28 @@ vi:
     gender: "Giới Tính"
     create_my_account: "Tạo Tài Khoản"
     birthday: "Ngày Sinh"
-    success: "Chao mung ban den voi Sample App!"
+    success: "Chào mừng bạn đến Sample App!"
   log_in_form:
-    fails: "Email va password khong chinh xac"
-    remember_me: "Ghi nho tren may tinh nay"
+    fails: "Tài khoản và mật khẩu không chính xác"
+    remember_me: "Ghi nhớ tài khoản"
+    incorrect: "Bạn không có quyền truy cập"
+  users:
+    not_found: "Không tìm thấy người dùng"
+    index:
+      title: "Tất cả người dùng"
+      btn_delete: "Xóa"
+      subject: "Tất cả người dùng"
+    edit:
+      title: "Sửa người dùng"
+      btn_submit: "Lưu thay đổi"
+      subject: "Cập nhật thông tin cá nhân"
+      avatar_change: "Thay đổi"
+    update:
+      success: "Thông tin được cập nhật"
+    destroy:
+      success: "Đã xóa người dùng"
+      danger: "Thao tác xóa lỗi!"
+    login:
+      danger: "Làm ơn đăng nhập."
+  confirm:
+    delete: "Bạn có chắc không?"

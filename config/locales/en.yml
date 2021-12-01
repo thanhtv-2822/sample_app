@@ -68,3 +68,24 @@ en:
   log_in_form:
     fails: "Invalid email/password combination"
     remember_me: "Remember me on this computer"
+    incorrect: "You do not have access"
+  users:
+    not_found: "User not found"
+    index:
+      title: "All users"
+      btn_delete: "Delete"
+      subject: "All users"
+    edit:
+      title: "Edit user"
+      btn_submit: "Save changes"
+      subject: "Update your profile"
+      avatar_change: "Change"
+    update:
+      success: "Profile updated"
+    destroy:
+      success: "User deleted"
+      danger: "Delete fail!"
+    login:
+      danger: "Please log in."
+  confirm:
+    delete: "You sure?"

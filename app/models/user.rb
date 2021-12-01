@@ -12,6 +12,7 @@ class User < ApplicationRecord
     uniqueness: true
 
   validates :password, presence: true,
+    allow_nil: true,
     length: {minimum: Settings.length.password}
   validate :valid_birthday, if: ->{birthday.present?}
 

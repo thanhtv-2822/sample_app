@@ -3,5 +3,13 @@ length:
   email: 255
   password: 6
   date: 100
+  title: 250
 regex:
   email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
+url:
+  gravatar: http://gravatar.com/emails
+avatar:
+  size: 80
+  size_default: 80
+form:
+  option_gender: [['Male'], ['Female'], ['Other']]
