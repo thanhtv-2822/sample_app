@@ -38,6 +38,7 @@ en:
     help: "Help"
     contact: "Contact"
     login: "Log in"
+    logout: "Log out"
   contact:
     contact_subject: "Contact"
     body_contact: "Hello Truong Thanh"
@@ -64,3 +65,5 @@ en:
     create_my_account: "Create My Account"
     birthday: "Birthday"
     success: "Welcome to the Sample App!"
+  log_in_form:
+    fails: "Invalid email/password combination"
