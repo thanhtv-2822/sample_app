@@ -67,3 +67,4 @@ en:
     success: "Welcome to the Sample App!"
   log_in_form:
     fails: "Invalid email/password combination"
+    remember_me: "Remember me on this computer"

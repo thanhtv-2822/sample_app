@@ -3,28 +3,28 @@ vi:
   title:
     base_title: "Ruby on Rails Tutorial Sample App"
   nav:
-    home: "Home"
-    help: "Help"
-    contact: "Contact"
-    login: "Log in"
-    logout: "Log out"
+    home: "Trang chu"
+    help: "Tro giup"
+    contact: "Lien he"
+    login: "Dang nhap"
+    logout: "Dang xuat"
   contact:
-    contact_subject: "Contact"
-    body_contact: "Hello Truong Thanh"
+    contact_subject: "Lien he"
+    body_contact: "Xin chao Truong Thanh"
   help:
-    help_subject: "Help"
+    help_subject: "Tro giup"
     body_help_html: Get help on the Ruby on Rails Tutorial at the <a href="http://www.railstutorial.org/help">Rails Tutorial help page.</a>
     about_html: To get help on this sample app, see the <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em> book</a>.
   home:
-    home_subject: "Home"
-    home_wellcome: "Welcome to the Sample App"
+    home_subject: "Trang Chu"
+    home_wellcome: "Chao mung den Sample App"
     body_home_html:  This is the home page for the <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    signup: "Sign Up Now!"
-    create_my_account: "Create My Account"
-    sign_up: "Sign Up"
+    signup: "Dang ky ngay!"
+    create_my_account: "Tao tai khoan"
+    sign_up: "Dang ky"
   error:
-    invalid: "Invalid"
-    err: "Errors"
+    invalid: "Khong hop le"
+    err: "Loi"
   sign_up_form:
     confirmation: "Xác Thực "
     password: "Mật Khẩu"
@@ -35,4 +35,5 @@ vi:
     birthday: "Ngày Sinh"
     success: "Chao mung ban den voi Sample App!"
   log_in_form:
-    fails: "Invalid email/password combination"
+    fails: "Email va password khong chinh xac"
+    remember_me: "Ghi nho tren may tinh nay"
