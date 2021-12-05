@@ -5,7 +5,9 @@ User.create!(
   password_confirmation: "123456",
   birthday: "1999/08/06",
   gender: "Male",
-  admin: true
+  admin: true,
+  activated: true,
+  activated_at: Time.zone.now
 )
 
 19.times do |n|
@@ -20,6 +22,8 @@ User.create!(
     password: password,
     password_confirmation: password,
     birthday: birthday,
-    gender: gender
+    gender: gender,
+    activated: true,
+    activated_at: Time.zone.now
   )
 end
