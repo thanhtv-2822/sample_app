@@ -40,6 +40,23 @@ module SessionsHelper
   def active_user? user
     log_in user
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-    redirect_to user
+    redirect_back_or user
+  end
+
+  def current_user? user
+    user == current_user
+  end
+
+  def redirect_back_or default
+    redirect_to(session[:forwarding_url] || default)
+    session.delete :forwarding_url
+  end
+
+  def store_location
+    session[:forwarding_url] = request.original_url if request.get?
+  end
+
+  def check_admin? user
+    current_user.admin? && !current_user?(user)
   end
 end
