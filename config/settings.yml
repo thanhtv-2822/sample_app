@@ -15,3 +15,5 @@ avatar:
   size_default: 80
 form:
   option_gender: [['Male'], ['Female'], ['Other']]
+microposts:
+  size_content: 140

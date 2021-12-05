@@ -16,13 +16,12 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.paginate(
-      page: params[:page],
-      per_page: Settings.length.per_page
-    )
+    @pagy, @users = pagy(User.all, items: 10)
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy(@user.microposts.all, items: 10)
+  end
 
   def new
     @user = User.new

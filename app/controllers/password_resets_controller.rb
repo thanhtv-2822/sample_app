@@ -49,7 +49,7 @@ class PasswordResetsController < ApplicationController
 
   def valid_user
     return if @user&.activated && @user&.authenticated?(:reset, params[:id])
-
+    
     flash[:danger] = t "mail.reset_password.not_auth"
     redirect_to root_url
   end
