@@ -87,3 +87,13 @@ vi:
       subject: "Thay đổi mật khẩu thành công"
       link_click: "Bấm vào đây!"
       content: "Bạn vừa đổi mật khẩu, hãy đăng nhập lại để chúng tôi biết đó là bạn!"
+  micropost:
+    create_success: "Đã tạo micropost!"
+    delete_success: "Micropost đã bị xóa"
+    delete_fail: "Đã xóa không thành công"
+    invalid: "Micropost không hợp lệ"
+    btn_submit: "Nộp"
+    placeholder: "Soạn micropost mới ..."
+    size_image_js: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."
+    profile: "Xem hồ sơ của tôi"
+    post: "bài đăng"

@@ -6,6 +6,7 @@ length:
   title: 250
   per_page: 10
   expire: 2
+  size_mb: 5
 regex:
   email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
 url:
@@ -15,3 +16,8 @@ avatar:
   size_default: 80
 form:
   option_gender: [['Male'], ['Female'], ['Other']]
+microposts:
+  size_content: 140
+  content_type: image/jpeg image/gif image/png
+img:
+  resize: 500

@@ -118,3 +118,13 @@ en:
       subject: "Change password successfully"
       link_click: "Click here!"
       content: "You just changed your password, sign in again so we know it's you!"
+  micropost:
+    create_success: "Micropost created!"
+    delete_success: "Micropost deleted"
+    delete_fail: "Deleted fail"
+    invalid: "Micropost invalid"
+    btn_submit: "Submit"
+    placeholder: "Compose new micropost..."
+    size_image_js: "Maximum file size is 5MB. Please choose a smaller file."
+    profile: "View My Profile"
+    post: "micropost"

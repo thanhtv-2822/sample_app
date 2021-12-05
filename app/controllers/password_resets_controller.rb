@@ -6,7 +6,7 @@ class PasswordResetsController < ApplicationController
   def edit; end
 
   def update
-    if params[:user][:password].empty?
+    if params[:user][:password].blank?
       @user.errors.add(:password, I18n.t("mail.reset_password.password_empty"))
     elsif @user.update(user_params)
       @user.send_password_reset_success_email
