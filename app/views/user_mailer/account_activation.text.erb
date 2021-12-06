@@ -1,0 +1,4 @@
+<%= t "active.hi" %>
+<%= @user.name %>,
+<%= t "active.context" %>
+<%= edit_account_activation_url(id: @user.activation_token, email: @user.email) %>

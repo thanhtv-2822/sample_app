@@ -58,3 +58,12 @@ vi:
       danger: "Làm ơn đăng nhập."
   confirm:
     delete: "Bạn có chắc không?"
+  active:
+    context: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+    btn_active: "Kích hoạt"
+    hi: "Chào"
+    subject: "Kích hoạt tài khoản"
+    not_actived: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+    active_success: "Tài khoản đã được kích hoạt!"
+    invalid_link: "Liên kết kích hoạt không hợp lệ!"
+    send_confirm: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."

@@ -89,3 +89,12 @@ en:
       danger: "Please log in."
   confirm:
     delete: "You sure?"
+  active:
+    context: "Welcome to the Sample App! Click on the link below to activate your account:"
+    btn_active: "Activate"
+    hi: "Hi"
+    subject: "Account activation"
+    not_actived: "Account not activated. Check your email for the activation link."
+    active_success: "Account activated!"
+    invalid_link: "Invalid activation link"
+    send_confirm: "Please check your email to activate your account."
